@@ -1,0 +1,28 @@
+@media(max-width: 600px) {
+    .modal-content__img {
+        display: none;
+    }
+
+    .modal-content__description {
+        width: 250px;
+        max-height: 500px;
+    }
+}
+
+@media(max-width: 439px) {
+    .header {
+        height: 120px;
+        flex-direction: column;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    .header::before {
+        top: 120px;
+    }
+
+    .header-search {
+        margin-top: 15px;
+        width: 200px;
+    }
+}
